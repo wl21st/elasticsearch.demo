@@ -2,7 +2,7 @@
  * 
  */
 
-package com.bsoft.vcs;
+package com.bsoft.perf.vcs;
 
 import java.io.File;
 
