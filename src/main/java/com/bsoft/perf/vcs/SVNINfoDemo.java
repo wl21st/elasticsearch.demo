@@ -68,6 +68,7 @@ public class SVNINfoDemo {
 
 			SVNInfo result = wcclient.doInfo(new File(wcPath), null);
 
+			System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 			System.out.println("WC-Path=" + wcPath);
 			System.out.println("RepositoryRootURL=" + result.getRepositoryRootURL());
 			System.out.println("Repository-UUID=" + result.getRepositoryUUID());
@@ -78,6 +79,7 @@ public class SVNINfoDemo {
 
 			System.out.println("Committed-Date=" + result.getCommittedDate());
 			System.out.println("Committed-Rev=" + result.getCommittedRevision());
+			System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
 
 		} catch (SVNException e) {
 			e.printStackTrace();
